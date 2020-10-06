@@ -1,0 +1,58 @@
+body{
+    background-color: #f6f9fc;
+    text-align: center;
+}
+
+
+canvas {
+    margin: 20px 0px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    background-color: white;
+    
+}
+
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.jsColor {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;    
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+
+.controls{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.jsRange{
+    transform: scale(1,0.9);
+}
+
+button {
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border: 0px;
+    padding: 5px 7px;
+    min-width: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid rgb(142, 142, 147);
+    color: rgb(142, 142, 147);
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+button:active {
+    transform: scale(0.95);
+  }
+  
+button:focus {
+    outline: none;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="canvasContainer" id="js-canvasContainer">
+        <canvas class="jsCanvas" id="js-canvas" width="500px" height="500px"></canvas>
+    </div>
+    <input type="range" class="jsRange" id="js-range" min="0" max="5" step="0.05" value="2.5" ></input>
+    <div class="controls">
+        <button id="js-fill">fill</button>
+        <button id="js-paint">paint</button>
+        <button id="js-save">save</button>
+    </div>
+    <div class="colors">`
+        <div class="jsColor"  style="background-color:rgb(0, 0, 0)"></div>
+        <div class="jsColor"  style="background-color:rgb(255,255,255)"></div>
+        <div class="jsColor"  style="background-color:rgb(255,59,48)"></div>
+        <div class="jsColor"  style="background-color:rgb(255,149,0)"></div>
+        <div class="jsColor"  style="background-color:rgb(255,204,0)"></div>
+        <div class="jsColor"  style="background-color:rgb(76,217,100)"></div>
+        <div class="jsColor"  style="background-color:rgb(90,200,250)"></div>
+        <div class="jsColor"  style="background-color:rgb(0,122,255)"></div>
+        <div class="jsColor"  style="background-color:rgb(88,86,214)"></div>
+    </div>
+    <script src="painting.js"></script>
+
+</body>
+</html>
